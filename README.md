@@ -2,7 +2,17 @@
 
 ## Description
 
-Event-based Question-Answer Search Engine, that works on the set of news articles, ranks them using temporal data from the articles and query, and tries to answer the question + estimate time scope of the query, based on the retrieved articles 
+Event-based Question-Answer Search Engine, that works on the set of news articles, ranks them using temporal data from the articles and query, and tries to answer the question + estimate time scope of the query, based on the retrieved articles.
+
+Implemented from the article: "https://link.springer.com/article/10.1007/s10791-020-09387-9".
+
+Web: `Flask`
+
+Document-retriever module: `ScaPy`
+
+Time‑aware re‑ranking module: `SUTime`
+
+Document reader module: `BiDAF-keras`
 
 ## Set-up the environment
 
