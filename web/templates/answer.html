@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+
+<h2><strong>Question:&nbsp;</strong>{{question}}</h2>
+
+<h2><strong>Possible answer:&nbsp;</strong>{{answer}}</h2>
+
+<h2><strong>Estimated time scope:&nbsp;</strong>{{scope}}</h2>
+
+<ol>
+	{% for doc in docs %}
+	<li style="text-align: center; font-size:16px;"><strong>{{doc[4]}}</strong><br />
+	{{doc[0]}}<br />
+	{{doc[5]}}<br />
+	{{doc[2]}}</li>
+	{% endfor %}
+</ol>
+</html>
