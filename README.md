@@ -20,7 +20,7 @@ Event-based Question-Answer Search Engine, that works on the set of news article
 
 ## Start app
 
-> `python3.6 app.py`
+> `python3.6 web/app.py`
 
 Wait till app is started (Can take some time, because of the bidaf model and sutime loading)
 
